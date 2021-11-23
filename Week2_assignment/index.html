@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu for a restaurent</title>
+</head>
+
+<style>
+	h1 {
+		font-size: 175%;
+		font-family: Monospace;
+		text-align: center;
+		top: 10%;
+	}
+
+	.design1 {
+		width: 33%;
+		height: 120px;
+		border: 1px solid black;
+		margin: 4px;
+		background-color: lightgrey;
+		font-family: Monospace;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	.design2 {
+		width: 32%;
+		height: 120px;
+		border: 1px solid black;
+		margin: 4px;
+		background-color: lightgrey;
+		font-family: Monospace;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	.design3 {
+		width: 32%;
+		height: 120px;
+		border: 1px solid black;
+		margin: 4px;
+		background-color: lightgrey;
+		font-family: Monospace;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	#padd {
+		padding: 7px;
+		top: -20px;
+		margin: 5px;
+	}
+
+	.pink {
+		position: relative;
+		width: 19.7%;
+		left: 80.5%;
+		background-color: lightpink;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 125%;
+		font-family: Monospace;
+		margin: 0;
+		padding: 0;
+		
+	}
+
+
+	.red {
+		position: relative;
+		width: 19.7%;
+		left: 80.5%;
+		background-color: red;
+		color: white;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 125%;
+		font-family: Monospace;
+		margin: 0;
+		padding: 0;
+	}
+
+	.yellow {
+		position: relative;
+		width: 19.7%;
+		left: 80.5%;
+		background-color: lightyellow;
+		text-align: center;
+		border: 1px solid black;
+		font-size: 125%;
+		font-family: Monospace;
+		margin: 0;
+		padding: 0;
+	}
+
+	@media (min-width: 992px) {
+		.design1 {
+			float: left;
+		}
+		.design2 {
+			float: left;
+		}
+		.design3 {
+			float: left;
+		}
+	}
+
+	@media (min-width: 769px) and (max-width: 991px) {
+		.design1 {
+			float: left;
+			width: 49%;
+			margin: 4px 10px 4px 4px;
+		}
+
+		.design2 {
+			width: 48%;
+		}
+
+		.design3 {
+			width: 98%;
+			margin: 7px;
+		}
+
+		.yellow {
+			width: 12%;
+			left: 87.85%;
+		}
+
+	}
+
+	@media (max-width: 768px) {
+		.design1, .design2, .design3 {
+			width: 98%;
+			margin: 4px 20px 10px 10px;
+			box-shadow: border-box;
+		}
+	}
+</style>
+<body>
+	<h1>Our Menu</h1>
+	<div style="float: left;">
+		<div class="design1">
+			<p class="pink">Chicken</p>
+			<p id="padd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed mi lacinia, commodo ex vel, congue quam. Nunc congue velit mauris, et fermentum augue molestie eu.</p>
+		</div>
+		<div class="design2">
+			<p class="red">Beef</p>
+			<p id="padd">Nullam a arcu eget dui malesuada efficitur nec dignissim erat. Donec vel ante sit amet augue gravida ullamcorper et eu eros. Donec ullamcorper purus sapien, ut viverra. Nulla id quam sit amet.</p>
+		</div>
+		<div class="design3">
+			<p class="yellow">Sushi</p>
+			<p id="padd">Proin dictum magna risus, sed laoreet leo vehicula nec. Nunc non nulla vitae arcu molestie vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		</div>
+	</div>
+
+</body>
+</html>
